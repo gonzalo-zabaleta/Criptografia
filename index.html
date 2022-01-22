@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criptografía</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="separador1"></div>
+
+  <h1 class="titulo">Código secreto</h1>
+
+  <div class="separador2"></div>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto"> <b>Mensaje</b> (Solo letras minúsculas, sin acento)</label>
+        <div class="separador3"></div>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+        <ul id="mensaje-error"></ul>
+        <input class="btn" type="submit" value="Encriptar" id="btn-encriptar">
+        <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar">
+        <input class="btn" type="submit" value="Limpiar" id="btn-limpiar1">
+      </form>
+    </section>
+  
+    <div class="separador4"></div>
+
+    <section class="msg box">
+      <label for="input-texto"  id="texto-mensaje">Mensaje por mostrar...</label>
+      <div class="separador5"></div>
+      <input class="text-input" type="text" id="msg"></input>
+      <input class="btn" type="submit" value="Copiar" id="btn-copy">
+      <input class="btn" type="submit" value="Limpiar" id="btn-limpiar2">
+    </section>
+  </main>
+
+  <script src="js/encriptar.js"></script>
+  <script src="js/desencriptar.js"></script>
+  <script src="js/copiar.js"></script>
+  <script src="js/limpiar.js"></script>
+</body>
+</html>
