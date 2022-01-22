@@ -40,7 +40,7 @@ body {
   width: 100px;
 }
 
-.titulo {
+.titulo, .pie-de-pagina {
   background-color: whitesmoke;
   padding: 15px;
   width: 30vw;
@@ -88,4 +88,9 @@ body {
 #mensaje-error{
 
   color: red;
+}
+
+.separador6{
+  height: 400px;
+
 }
